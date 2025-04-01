@@ -18,6 +18,7 @@
     },
     "Items": {
       "type": "array",
+      "title": "Items (for Unordered, Unstyled, or Icons)",
       "items": {
         "type": "object",
         "properties": {
@@ -52,7 +53,7 @@
     },
     "ItemsDescription": {
       "type": "array",
-      "title": "Items Description",
+      "title": "Items (for Description type)",
       "dependencies": [
         "Type"
       ],
